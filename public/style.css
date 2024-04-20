@@ -1,1 +1,35 @@
 
+/* style.css */
+
+/* Apply styles to the calculator table */
+#calcu {
+ 
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Style the input field */
+#result {
+  width: 90%;
+  padding: 10px;
+  font-size: 10px;
+  text-align: right;
+  border: 2px solid #aa2424;
+  border-radius: 5px;
+}
+
+/* Style the calculator buttons */
+#calcu input[type="button"] {
+  width: 70px;
+  height: 50px;
+  font-size: 16px;
+  
+
+  
+}
+
+/* Add hover effect to buttons */
+#calcu input[type="button"]:hover {
+  background-color: #f0f0f0;
+}
+
